@@ -1,0 +1,62 @@
+/* Estilos generales del contenedor de las tarjetas */
+#pokemon-1, #pokemon-2, #pokemon-3, #pokemon-4, #pokemon-5, #pokemon-6,
+#pokemon-7, #pokemon-8, #pokemon-9, #pokemon-10, #pokemon-11, #pokemon-12,
+#pokemon-13, #pokemon-14, #pokemon-15, #pokemon-16 {
+    background-color: #f0f0f0; /* Fondo suave para cada tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+    width: 200px; /* Ancho de cada tarjeta */
+    text-align: center; /* Centrado del texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para las tarjetas */
+    margin: 10px; /* Espaciado entre las tarjetas */
+    transition: transform 0.3s ease; /* Animación al pasar el mouse */
+}
+
+#pokemon-1:hover, #pokemon-2:hover, #pokemon-3:hover, #pokemon-4:hover, 
+#pokemon-5:hover, #pokemon-6:hover, #pokemon-7:hover, #pokemon-8:hover, 
+#pokemon-9:hover, #pokemon-10:hover, #pokemon-11:hover, #pokemon-12:hover,
+#pokemon-13:hover, #pokemon-14:hover, #pokemon-15:hover, #pokemon-16:hover {
+    transform: scale(1.05); /* Efecto de agrandar la tarjeta al pasar el mouse */
+}
+
+/* Estilo de las imágenes de los Pokémon */
+img {
+    width: 150px; /* Ancho fijo para las imágenes */
+    height: 150px; /* Altura fija para las imágenes */
+    object-fit: contain; /* Ajustar la imagen dentro del contenedor */
+    margin-bottom: 10px; /* Espaciado debajo de la imagen */
+}
+
+/* Estilos para los nombres de los Pokémon */
+h3 {
+    font-size: 18px; /* Tamaño de fuente para el nombre */
+    font-weight: bold; /* Negrita para el nombre */
+    color: #333; /* Color oscuro para el texto */
+    margin: 5px 0; /* Espaciado arriba y abajo */
+}
+
+/* Estilo para el tipo del Pokémon */
+p {
+    font-size: 14px; /* Tamaño de fuente más pequeño para el tipo */
+    color: #555; /* Color de texto gris */
+    margin: 5px 0; /* Espaciado arriba y abajo */
+    text-transform: capitalize; /* Para capitalizar la primera letra de cada palabra */
+}
+
+/* Contenedor para alinear las tarjetas en una fila */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar las tarjetas */
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Fuente más legible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Fondo suave para toda la página */
+    margin: 0;
+}
